@@ -79,8 +79,10 @@ button{
 
 button:active{
     background-color: rgb(212, 212, 212);
-    width: 118px;
+    width: 119px;
     height: 43px;
+    
+    margin: 25px 0 34px 0;
 
 }
 

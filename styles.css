@@ -3,3 +3,122 @@
     padding: 0;
     text-decoration: none;
 }
+
+body{
+    background-color: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+}
+
+.mainContainer{
+    width: 550px;
+    margin: auto;
+    margin-top: 125px;
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.topContainer{
+    background-color: #6943FF;
+    
+}
+
+h2{
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+input{
+    max-width: 130px;
+    max-height: 90px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+input::placeholder{
+    color: rgb(185, 185, 185);
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    width: 117px;
+    height: 42px;
+    margin: 25px 0 35px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(212, 212, 212);
+    width: 118px;
+    height: 43px;
+
+}
+
+.bottomContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 35px 20px;
+}
+
+.bottomContainer div{
+    background-color: #273549;
+    min-height: 110px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.unitP{
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+}
+
+.results{
+    margin-top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+

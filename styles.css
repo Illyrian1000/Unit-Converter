@@ -124,3 +124,14 @@ button:active{
 
 
 
+@media only screen and (max-width: 400px) {
+
+    body{
+        width: 375px;
+    }
+    .mainContainer{
+        max-width: 100%;
+    }
+
+}
+  

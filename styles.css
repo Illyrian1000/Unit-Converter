@@ -127,12 +127,26 @@ button:active{
 @media only screen and (max-width: 400px) {
 
     body{
-        overflow-x:hidden;
+        background-color: #1F2937;
     }
     .mainContainer{
         margin-top: 0;
-        min-width: 375px;
-        max-width: 400px;
+        min-width: 360x;
+        max-width: 420px;
+    }
+
+    h2{
+        padding-top: 40px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .bottomContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 15px;
     }
 
 }
